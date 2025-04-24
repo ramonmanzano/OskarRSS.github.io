@@ -1,0 +1,169 @@
+/* ---- General Styles ---- */
+body {
+    font-family: 'Share Tech Mono', monospace; /* Aplicar Share Tech Mono */
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #00FFFF;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: -1;
+}
+
+/* ---- Header ---- */
+header {
+    background-color: #444;
+    color: #00FFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 10px 15px;
+}
+
+.navbar ul li a {
+    color: #00FFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* ---- Main Content ---- */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ---- Contact Form ---- */
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #00FFFF;
+    color: #323840;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0088aa;
+}
+
+/* ---- Map Section ---- */
+.map iframe {
+    width: 100%;
+    border: none;
+    border-radius: 5opx;
+}
+
+/* ---- Media Section ---- */
+.media iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ---- Footer ---- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #444;
+    color: #00FFFF;
+}
+
+/* ---- Responsive Styles ---- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .navbar ul li {
+        margin: 5px 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    label {
+        font-size: 0.9em;
+    }
+
+    .contact-form button {
+        font-size: 0.9em;
+    }
+}
