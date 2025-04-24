@@ -2,7 +2,7 @@
 <rss version="2.0">
   <channel>
     <!-- Información general del canal -->
-    <title>sStudy Manzano- Servicios y Productos NOTICIAS</title>
+    <title>sStudy Manzano - Servicios y Productos NOTICIAS</title>
     <link>https://ramonmanzano.github.io/OskarRSS.github.io/</link>
     <description>Canal RSS con información sobre nuestros servicios y productos para mejorar tu estudio.</description>
 
@@ -24,4 +24,7 @@
     <item>
       <title>Coaching para Exámenes</title>
       <link>https://ramonmanzano.github.io/OskarRSS.github.io/services.html#services</link>
-      <description>Preparación intensiva para enfrentar tus exámenes con confianza. Precio:
+      <description>Preparación intensiva para enfrentar tus exámenes con confianza. Precio: $39.80/sesión.</description>
+    </item>
+  </channel>
+</rss>
